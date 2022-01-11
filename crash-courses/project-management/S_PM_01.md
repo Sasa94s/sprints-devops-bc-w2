@@ -12,8 +12,10 @@ As a result of your outstanding management skills, you are requested to lead a t
 
 Stakeholders:
 1. Application User _(Customer, e.g. Public Mobile Users)_
-2. Public Service Providers _(Customer, e.g. Restaurants)_
-3. Central Bank of Egypt _(FinTech Regulator)_
-4. Financial Service Providers _(Who provides Payment Methods, e.g. E-Wallets, Credit Cards)_
-5. Google Maps _(Third-Party Integrator for Places)_
-6. Application Store _(Google Play/AppStore)_
+2. Product Team _(e.g. Product Owner, Product Designers, Project Manager)_
+3. Technical Team _(e.g. Software Engineers)_
+4. Public Service Providers _(Customer, e.g. Restaurants)_
+5. Central Bank of Egypt _(FinTech Regulator)_
+6. Financial Service Providers _(Who provides Payment Methods, e.g. E-Wallets, Credit Cards)_
+7. Google Maps _(Third-Party Integrator for Places)_
+8. Application Store _(Google Play/AppStore)_
