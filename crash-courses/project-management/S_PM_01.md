@@ -1,0 +1,21 @@
+# Case Study: Identify Stakeholders
+
+## Task
+
+As a result of your outstanding management skills, you are requested to lead a team to develop a digital discount card
+(similar to Xclusive, Elshaye3 card, ...) using a mobile app. The app can be used to:
+1. View all current promotions and discounts.
+2. Replace the physical card by a digital one on the mobile.
+3. Integration with Google Maps to see nearby offers in restaurants, stores, clinics and medical centers...
+
+## Solution
+
+Stakeholders:
+1. Application User _(Customer, e.g. Public Mobile Users)_
+2. Product Team _(e.g. Product Owner, Product Designers, Project Manager)_
+3. Technical Team _(e.g. Software Engineers)_
+4. Public Service Providers _(Customer, e.g. Restaurants)_
+5. Central Bank of Egypt _(FinTech Regulator)_
+6. Financial Service Providers _(Who provides Payment Methods, e.g. E-Wallets, Credit Cards)_
+7. Google Maps _(Third-Party Integrator for Places)_
+8. Application Store _(Google Play/AppStore)_
