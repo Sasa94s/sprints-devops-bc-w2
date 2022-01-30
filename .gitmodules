@@ -1,0 +1,3 @@
+[submodule "intro-to-ruby/tasks-02/book-store-gui"]
+	path = intro-to-ruby/tasks-02/book-store-gui
+	url = https://github.com/Sasa94s/book-store-gui
