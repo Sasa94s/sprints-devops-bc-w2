@@ -1,0 +1,16 @@
+#!/bin/bash
+
+DATE="$(date +%s)"
+NEW_FOLDER="${USERNAME}_${DATE}"
+mkdir -p "$NEW_FOLDER"
+
+FILES_COUNT=0
+MAX_FILES=25
+BASE_FILENAME=$USER
+while [ $FILES_COUNT -lt $MAX_FILES ]
+do
+  FILES_COUNT=$((FILES_COUNT+1))
+  touch "${NEW_FOLDER}/${BASE_FILENAME}_${FILES_COUNT}"
+done
+
+ls "${NEW_FOLDER}"
