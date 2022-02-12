@@ -64,3 +64,13 @@ Enter Department: AD
 Enter Salary: 2000
 Phone already exists in Record #1: Mostafa,Elsheikh,01033639777,AD,2000
 ```
+```text
+Enter First Name: Mohamed
+Enter Last Name: Hasan
+Enter Phone Number: 01112814519
+Enter Department: OIT
+Enter Salary: 3000
+
+Record is saved successfully!
+Record: [Mohamed,Hasan,01112814519,OIT,3000]
+```

@@ -40,9 +40,10 @@ done
 
 RECORD="""${F_NAME}"",""${L_NAME}"",""${PHONE}"",""${DEPARTMENT}"",""${SALARY}"""
 
-awk -F',' -v var="$S_PHONE" '{ if ($3 == "'"${PHONE}"'") { print "Phone already exists in Record #"NR":",$0 } }' "$CSV_FILE"
+S_PHONE=$(awk -F',' -v phone="$PHONE" '{ if ($3 == phone) { printf("Phone already exists in Record #%d: %s", NR, $0) } }' "$CSV_FILE")
+echo ""
 
-if [[ -n "$S_PHONE" ]]
+if [[ -z "$S_PHONE" ]]
 then
   echo "$RECORD" >> "$CSV_FILE"
   echo "Record is saved successfully!"
